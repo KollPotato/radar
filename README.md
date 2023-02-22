@@ -41,15 +41,15 @@ fun fibonacci(n: Int): Int {
 import { Server } from "http"
 
 fun main() {
-    const server = new Server({
-        host: "localhost",
-        port: 5000
-    })
+  const server = new Server({
+    host: "localhost",
+    port: 5000
+  })
 
-    server.get("/", () => {
-        return "Hello, World!"
-    })
+  server.get("/", () => {
+      return "Hello, World!"
+  })
 
-    server.start()
+  server.start()
 }
 ```
