@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+        "strict": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "sourceMap": true,
+        "declaration": true
+    },
+    "include": [
+        "src/*", "src/parser/Position.ts", "src/parser/Position.ts", "src/parser/InputStream.ts", "src/parser/InputStream.ts", "src/parser/Parser.ts", "src/parser/Parser.ts", "src/parser/TokenStream.ts", "src/parser/TokenStream.ts", "src/radar/Radar.ts", "src/radar/Radar.ts", "src/radar/Compiler.ts", "src/radar/Analyzer.ts", "src/radar/Compiler.ts", "src/radar/Analyzer.ts",
+    ]
+}

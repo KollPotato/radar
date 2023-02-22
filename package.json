@@ -1,0 +1,24 @@
+{
+  "name": "radar",
+  "version": "0.0.1",
+  "description": "Radar is a high-level general-purpose statically-typed programming language",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --verbose ./test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/events": "^3.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.13.0",
+    "events": "^3.3.0",
+    "llvm-bindings": "^0.4.2",
+    "ts-jest": "^29.0.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
