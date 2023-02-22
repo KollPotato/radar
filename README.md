@@ -14,7 +14,7 @@ Radar is a high-level programming language.
 # main.rd
 
 fun main() {
-	println("Hello, World!")
+  println("Hello, World!")
 }
 ```
 
@@ -23,14 +23,14 @@ fun main() {
 # main.rd
 
 fun main() {
-	for i in Range(10) {
-    	println("Fibonacci of $i is ${fibonacci(i)}")
-    }
+  for i in Range(10) {
+    println("Fibonacci of $i is ${fibonacci(i)}")
+  }
 }
 
 fun fibonacci(n: Int): Int {
-	if n in [0, 1] return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
+  if n in [0, 1] return n
+  return fibonacci(n - 1) + fibonacci(n - 2)
 }
 ```
 
