@@ -1,4 +1,11 @@
-# Radar (UNDER DEVELOPMENT)
+# Radar (ARCHIVED)
+
+## Why archived?
+I do not plan to continue this project, because the parser is already really slow and cannot be called blazingly fast :(
+
+
+----
+
 Radar is a high-level programming language.
 
 
